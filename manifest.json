@@ -1,0 +1,15 @@
+{
+  "name": "mlkshk",
+  "version": "1.0",
+  "description": "Post photos to mlkshk.com.",
+  "browser_action": {
+    "default_icon": "icon.png",
+		"popup": "menu.html"
+  },
+	"icons": {
+		"16": "icon_16.png",
+		"48": "icon.png"
+	},
+	"background_page": "background.html",
+	"permissions": [ "tabs", "contextMenus", "http://*/*", "http://*/", "https://*/" ]
+}
