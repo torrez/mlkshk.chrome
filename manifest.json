@@ -2,10 +2,11 @@
   "name": "mlkshk",
   "version": "1.0",
   "description": "Post photos to mlkshk.com.",
-  "browser_action": {
+  "no_browser_action": {
     "default_icon": "icon.png",
 		"popup": "menu.html"
   },
+  "update_url": "http://mlkshk.com/static/plugins/updates.xml",  
 	"icons": {
 		"16": "icon_16.png",
 		"48": "icon.png"
