@@ -1,6 +1,6 @@
 {
   "name": "mlkshk",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Post photos to mlkshk.com.",
   "no_browser_action": {
     "default_icon": "icon.png",
