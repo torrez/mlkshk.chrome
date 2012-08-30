@@ -1,16 +1,19 @@
 {
-  "name": "mlkshk",
-  "version": "1.2",
-  "description": "Post photos to mlkshk.com.",
-  "no_browser_action": {
-    "default_icon": "icon.png",
-		"popup": "menu.html"
-  },
-  "update_url": "http://mlkshk.com/static/plugins/updates.xml",  
-	"icons": {
-		"16": "icon_16.png",
-		"48": "icon.png"
+	"name": "mlkshk",
+	"version": "1.2.2",
+	"manifest_version": 2,
+	"description": "Post photos to mlkshk.com.",
+	"browser_action": {
+	    "default_icon": "icon.png",
+		"default_popup": "menu.html",
+        "default_title": "MLKSHK" 
 	},
-	"background_page": "background.html",
+	"icons": {
+        "16": "icon_16.png",
+        "48": "icon.png"
+	},
+    "background": {
+        "page": "background.html"
+    },
 	"permissions": [ "tabs", "contextMenus", "http://*/*", "http://*/", "https://*/" ]
 }
